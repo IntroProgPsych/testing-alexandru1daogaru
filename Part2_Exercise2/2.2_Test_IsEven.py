@@ -12,8 +12,14 @@ class TestIsEven(unittest.TestCase):
     # - Use assertTrue / assertFalse to check the results.
     # - Use clear method names, e.g. test_even_positive_number, etc.
     #
-    # write your tests here
-    pass
+    # write your tests here:
+
+    def testtrueorfalse(self):
+        self.assertTrue(is_even(6))
+        self.assertFalse(is_even(1))
+
+
+   
 
 
 if __name__ == "__main__":
